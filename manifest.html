@@ -15,32 +15,49 @@
 			}
 			body {
 				background: black;
+				color: white;
 				font-family: 'Open Sans', sans-serif;
 			}
 			h1, h2, h3, h4, h5, h6 {
 				font-family: 'Roboto Slab', serif;
 			}
-			h1 {
+			
+			header {
+				padding: 10px;
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+			} 
+			header h1 {
 				margin: 0;
 				padding: 20px;
 				background-color: black;
 				color: white;
+				font-size: 24px;
+			}
+			.logo {
+				width: 60px;
+				height: 60px;
 			}
 			main {
-				width: 100%;
-				height: 100%;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: center;
-			} 
-			.logo {
-				width: 240px;
-				height: 240px;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 10px;
+				max-width: 720px;
+			}
+			main p,
+			main li {
+				line-height: 1.5;
+			}
+			main li + li {
+				margin-top: 5px;
 			}
 	</style>
 <body>
-	<main>
+	<header>
+		
 			<svg width="800px" height="800px" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="logo">
 				<title>hackcessibility</title>
 				<g id="hackcessibility" stroke="none" stroke-width="1" fill="white" fill-rule="evenodd">
@@ -48,7 +65,46 @@
 						<path d="M536.419397,268.839295 C549.645517,265.30652 564.63512,273.255264 568.162085,286.50317 C571.689051,299.751077 563.753379,314.765371 550.527259,318.298146 L550.527259,318.298146 L442.073075,350.976316 C436.782627,352.742704 433.255662,358.041866 433.255662,364.224223 C434.137403,381.888099 435.900886,419.865431 439.427851,433.996531 C448.245264,474.623445 496.741037,585.905861 496.741037,585.905861 C502.913227,599.153768 497.622779,614.168062 484.396659,620.350419 C480.869694,622.116806 477.342728,623 473.815763,623 C464.116608,623 455.299195,617.700837 450.890488,608.8689 L450.890488,608.8689 L401.512974,502.002452 L349.490235,607.985706 C345.96327,617.700837 336.264115,623 326.56496,623 C323.037995,623 319.51103,622.116806 315.984064,620.350419 C303.639686,614.168062 297.467496,599.153768 303.639686,585.905861 C303.639686,585.905861 352.135459,474.623445 360.952872,433.996531 C364.479838,419.865431 366.24332,381.888099 367.125062,364.224223 C368.006803,358.041866 363.598096,352.742704 358.307648,350.976316 L358.307648,350.976316 L249.853465,318.298146 C235.745603,314.765371 227.809931,299.751077 232.218638,285.619977 C236.627345,272.37207 251.616947,266.189714 264.843067,269.722489 C264.843067,269.722489 364.479838,301.517465 399.749491,301.517465 C435.900886,301.517465 536.419397,268.839295 536.419397,268.839295 Z M401,178 C428.614237,178 451,200.385763 451,228 C451,255.614237 428.614237,278 401,278 C373.385763,278 351,255.614237 351,228 C351,200.385763 373.385763,178 401,178 Z" id="a11y" fill="#ffffff" fill-rule="nonzero"></path>
 				</g>
 		</svg>
+
 		<h1>Hackcessibility</h1>
+
+	</header>
+	<main>
+
+			<h1>Missie Toegankelijkheid</h1>
+			<p>Doel: Q42 is de autoriteit op het gebied van toegankelijkheid</p>
+			
+			<p>Toegankelijkheid staat steeds hoger op de agenda bij onze huidige en potentiële klanten. Klanten in het publieke domein vragen aan ons om dit te fixen. Het zal niet lang duren voordat ook commerciële partijen ons hiernaar gaan vragen. Q42 moet daarvoor klaarstaan.</p>
+			
+			<p>We kunnen dit fixen! We hebben al heel veel kennis en kunde op dit vlak, maar zijn te bescheiden. Q42 gaat dit domein veel meer ownen dan we nu doen. Hoe dan?</p>
+			
+			<ol>
+					<li>Door onze eigen shit op orde hebben</li>
+					<li>Door het niet laten afhangen van één persoon</li>
+					<li>Door te laten zien dat we hierin voorop lopen</li>
+					<li>Door het van de daken te schreeuwen</li>
+			</ol>
+			
+			
+			
+			<h2>1. Onze eigen shit op orde hebben</h2>
+			<p>De eindgebruiker staat centraal. Iedereen moet wat we maken kunnen gebruiken. Dus toegankelijkheid is een absolute vereiste in alles wat we opleveren. Klinkt geweldig maar dit geldt helaas nog niet voor ons. Alhoewel we de kennis hebben, blijft het vaak hangen op de uitvoering. Om allerlei redenen. Als we deze rol willen claimen dan moeten we er dus in ieder geval voor zorgen dat we tenminste één project hebben waarmee we kunnen laten zien dat we dit kunnen.</p>
+			<h3>DOEL: 1 project maximaal goed op orde maken en houden.</h3>
+
+			
+			<h2>2. Het niet laten afhangen van één persoon</h2>
+			<p>Op dit moment kijkt iedereen nog naar mij als het om toegankelijkheid gaat. Toegegeven: van alle Q’ers weet ik hier het meeste van. Maar één Johan is niet voldoende om toegankelijkheid over de hele linie te borgen.. Er moet nog iemand bij. Dat kan een andere Q’er zijn die hier keihard voor gaat en tijd voor kan claimen. Maar het kan ook een nieuwe aan te nemen persoon zijn: bij voorkeur een ontwikkelaar met een beperking die alleen al door zijn aanwezigheid iedereen scherp houdt.</p>
+			<h3>DOEL 2: 1 Accessibility Engineer erbij</h3>
+			
+			<h2>3. Laten zien dat we hierin voorop lopen</h2>
+			<p>Gebruiken maken van onze kennis op een goed manier en het ontsluiten van nieuwe technologie voor groepen in de samenleving die het het hardst nodig hebben. Groepen die hierdoor een betere kwaliteit van leven krijgen; zelfstandiger worden. Wat Hack The Planet doet voor de neushoorn en het regenwoud, gaan wij doen voor mensen met een beperking. Dat is Hackcessibility en geeft antwoord op de fundamentele vraag: Hoe fixen we de problemen die mensen met een beperking tegenkomen in hun dagelijks leven? Het antwoord op die vraag is met wat wij het beste kennen, met innovatieve technologie.</p>
+			<p>Het komende jaar doen we tenminste één zo’n project. De huidige kandidaten zijn: MathSense, Overhoorbot, The Voicery. Wat al deze projecten gemeen hebben is de potentie om voor een veel grotere groep mensen verschil te maken. Want toegankelijkheid is wel vaker de basis geweest voor innovaties waarvan mensen zonder een beperking veel nut hebben. Een mooi voorbeeld uit een reeks van vele: Sam Faber, de oprichter van OXO, zag ooit zijn vrouw die reuma had worstelen met een dunschiller. Hij besloot haar helpen door een dunschiller te ontwikkelen die veel beter bruikbaar was door haar. Wat hij toen nog niet had kunnen bevroeden was dat iedereen hier bij gebaat was. Ondertussen is OXO een heel bekende ontwikkelaar van zeer gebruiksvriendelijke toepassingen voor in de keuken.</p>
+			<h3>DOEL 3: 1 Project waarbij we een dagelijks terugkerend probleem voor mensen met een beperking hebben gefixt</h3>
+			
+			<h2>4. Het van de daken schreeuwen</h2>
+			<p>Haal de zeepkisten maar tevoorschijn: Ik ga weer de wereld in om te vertellen dat we veel meer aandacht moeten geven aan Toegankelijkheid. Om geloofwaardig over te komen heb ik keihard voorbeelden nodig uit ons eigen portfolio. Met doel 1,2 en 3 gerealiseerd hebben we een ijzersterk verhaal dat gedeeld moet worden.</p>
+			<h3>DOEL 4: 1 talk op CSUN in Los Angeles in 2021</h3>		
+			
 	</main>
 </body>
 </html>
